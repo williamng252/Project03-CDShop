@@ -1,0 +1,70 @@
+body {
+    max-width: 680px;
+    margin: 16px 32px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #111;
+}
+
+h1 {
+    margin: 0 0 10px;
+    color: #007b80;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #222;
+    padding: 8px;
+    text-align: left;
+}
+
+.price {
+    width: 12%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.cd-list td:last-child {
+    width: 22%;
+}
+
+button {
+    white-space: nowrap;
+}
+.cd-list th:nth-child(2),
+.cd-list td:nth-child(2) {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.cart-table td:nth-child(2),
+.checkout-table td:nth-child(2) {
+    text-align: left;
+}
+
+.quantity-form {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.quantity-form input {
+    width: 64px;
+}
+
+.cart-links {
+    display: flex;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.cart-table tfoot,
+.checkout-table tfoot {
+    font-weight: bold;
+}
